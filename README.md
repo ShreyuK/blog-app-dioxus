@@ -1,16 +1,18 @@
-# Development
+# Dioxus Blog
 
-Your new bare-bones project includes minimal organization with a single `main.rs` file and a few assets.
+![Dioxus](https://img.shields.io/badge/Dioxus-0.6-green.svg)
+![Rust](https://img.shields.io/badge/Rust-1.89-orange.svg)
+![SQLite](https://img.shields.io/badge/SQLite-3-blue.svg)
 
-```
-project/
-├─ assets/ # Any assets that are used by the app should be placed here
-├─ src/
-│  ├─ main.rs # main.rs is the entry point to your application and currently contains all components for the app
-├─ Cargo.toml # The Cargo.toml file defines the dependencies and feature flags for your project
-```
+A simple blog application built with Dioxus, a Rust framework for building user interfaces. This application features a clean UI for creating and viewing blog posts with a SQLite backend.
 
+## Features
 
+- ✨ Create new blog posts with title and content
+- 📝 View all posts in a clean, card-based layout
+- 🎨 Modern, responsive CSS design
+- 💾 SQLite database for persistent storage
+- ⚡ Built with Rust for performance and safety
 
 ### Serving Your App
 
